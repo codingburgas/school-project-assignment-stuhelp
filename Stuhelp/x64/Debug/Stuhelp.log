@@ -1,2 +1,2 @@
-﻿  Main.cpp
-  Stuhelp.vcxproj -> F:\752\htmlmaistori\school-project-assignment-stuhelp\x64\Debug\Stuhelp.exe
+﻿AppEngine.obj : error LNK2005: main already defined in Main.obj
+C:\Users\Asus\Desktop\school-project-assignment-stuhelp\x64\Debug\Stuhelp.exe : fatal error LNK1169: one or more multiply defined symbols found
