@@ -1,2 +1,19 @@
-﻿AppEngine.obj : error LNK2005: main already defined in Main.obj
-C:\Users\Asus\Desktop\school-project-assignment-stuhelp\x64\Debug\Stuhelp.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿  AppEngine.cpp
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(18,27): warning C4244: '+=': conversion from 'float' to 'unsigned int', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(21,25): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(114,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(114,66): warning C4244:         with
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(114,66): warning C4244:         [
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(114,66): warning C4244:             T=unsigned int
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(114,66): warning C4244:         ]
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(114,66): warning C4244:         and
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(114,66): warning C4244:         [
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(114,66): warning C4244:             T=float
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(114,66): warning C4244:         ]
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(117,113): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(126,64): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(126,64): warning C4244:         with
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(126,64): warning C4244:         [
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(126,64): warning C4244:             T=float
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(126,64): warning C4244:         ]
+  Stuhelp.vcxproj -> F:\752\htmlmaistori\school-project-assignment-stuhelp\x64\Debug\Stuhelp.exe

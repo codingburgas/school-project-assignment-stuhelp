@@ -1,19 +1,15 @@
-#include <SFML/Graphics.hpp>
+// main.cpp
+// CALLS THE APP ENGINE WHICH RENDERS THE STUFF ELSE IT WILL CATCH THE ERROR PREVENTING A CRASH!
+#include "AppEngine.h"
+#include <iostream>
 
-int main()
-{
-    sf::RenderWindow window(sf::VideoMode(800, 600), "STUHELP");
-    while (window.isOpen())
-    {
-        sf::Event event;
-        while (window.pollEvent(event))
-        {
-            if (event.type == sf::Event::Closed)
-                window.close();
-        }
-        window.clear(sf::Color::White);
-        window.display();
+int main() {
+    AppEngine app;
+    if (!app.isWindowCreated()) {
+        std::cerr << "The SFML window could not be created." << std::endl;
+        return -1;
     }
 
+    app.run();
     return 0;
 }

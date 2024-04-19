@@ -23,7 +23,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AppVariables.h">
+    <ClInclude Include="AppEngine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

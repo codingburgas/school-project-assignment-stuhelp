@@ -141,7 +141,7 @@
     <ClCompile Include="AppEngine.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AppVariables.h" />
+    <ClInclude Include="AppEngine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
