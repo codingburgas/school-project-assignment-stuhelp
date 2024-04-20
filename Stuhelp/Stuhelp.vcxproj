@@ -139,9 +139,17 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="AppEngine.cpp" />
+    <ClCompile Include="MathExam.cpp" />
+    <ClCompile Include="EnglishExam.cpp" />
+    <ClCompile Include="BulgarianExam.cpp" />
+    <ClCompile Include="CodingExam.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppEngine.h" />
+    <ClInclude Include="EnglishExam.h" />
+    <ClInclude Include="BulgarianExam.h" />
+    <ClInclude Include="CodingExam.h" />
+    <ClInclude Include="MathExam.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

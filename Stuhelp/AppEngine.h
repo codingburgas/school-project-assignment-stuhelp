@@ -32,6 +32,10 @@ private:
     //SCALE FOR TOOLBAR
     const unsigned int toolbarHeight = 50;  
     sf::Color backgroundColor;
+    // ... existing members ...
+    sf::RectangleShape button1, button2 , button3 , button4; // Two buttons
+    sf::Text button1Text, button2Text, button3Text, button4Text; // Text for each button
+    sf::Text footerText; // Footer text
 
 
     //Events and functions
@@ -39,6 +43,10 @@ private:
     void render();        
     void loadTextures();  
     void setupToolbar(); 
+    void openMathExamWindow();
+    void openEnglishExamWindow();
+    void openBulgarianExamWindow();
+    void openCodingExamWindow();
 };
 
 #endif
