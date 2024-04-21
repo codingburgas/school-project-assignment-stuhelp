@@ -37,73 +37,44 @@ MathExam::MathExam() {
 
 void MathExam::setupQuestionsAndAnswers() {
     questions = {
-    "What is a correct syntax to output \"Hello World\" in C++?",
-    "How do you insert COMMENTS in C++ code?",
-    "Which data type is used to create a variable that should store text?",
-    "Which operator can be used to compare two values?",
-    "Which keyword is used to create a variable with a fixed address?",
-    "What is the correct way to declare a namespace in C++?",
-    "How do you create a function in C++?",
-    "Which header file lets us work with input and output objects?",
-    "What is the correct way to refer to a member of a namespace?",
-    "Which keyword is used to return a value inside a function?",
-    "What is the standard exception class in C++ from which all exceptions inherit?",
-    "How can you dynamically allocate memory in C++?",
-    "What is the scope resolution operator in C++?",
-    "Which keyword is used to define a new type in C++?",
-    "In C++, what is the difference between \"delete\" and \"delete[]\"?",
-    "What is the purpose of the std::move function?",
-    "Which C++ feature ensures that a class has only one instance and provides a global point of access to it?",
-    "How do you declare a pure virtual function in C++?",
-    "Which C++11 keyword is used to indicate that a function does not throw an exception?",
-    "In Lua, how do you declare a variable that is globally accessible, outside any functions?"
+    "If a triangle has angles of 90° and 30°, what is the measure of the third angle?",
+    "Solve for x in the equation: 4x + 7 = 31.",
+    "What is the area of a circle with a radius of 5 cm? (Use ? = 3.14)",
+    "If the ratio of the sides of two similar triangles is 3:4, what is the ratio of their areas?",
+    "Expand the expression (x + 2)(x - 3).",
+    "Factorize the quadratic expression x^2 - 5x + 6.",
+    "What is the volume of a cube with side length 7 cm?",
+    "If a pair of parallel lines are cut by a transversal, what is the relationship between alternate interior angles?",
+    "Simplify the expression: 3(2x - 4) + 5x.",
+    "Solve the system of equations: 2x + y = 13 and x - y = 1."
     };
 
     answers = {
-        {"cout << \"Hello World\";", "Console.WriteLine(\"Hello World\");", "print(\"Hello World\");", "echo \"Hello World\";"},
-        {"// This is a comment", "/* This is a comment */", "# This is a comment", "All of the above"},
-        {"std::string", "String", "Txt", "string"},
-        {"=", "==", "<>", "><"},
-        {"const", "fixed", "static", "pointer"},
-        {"package NamespaceName;", "namespace NamespaceName {}", "def NamespaceName: {}", "namespace NamespaceName;"},
-        {"function functionName() {}", "def functionName() {}", "FunctionName function = () {}", "void functionName() {}"},
-        {"<iostream>", "<istream>", "<stream>", "<stdio.h>"},
-        {"Namespace::member", "Namespace.member", "Namespace->member", "member::Namespace"},
-        {"return", "get", "return()", "goto"},
-        {"std::exception", "std::error", "std::throwable", "std::runtime_error"},
-        {"malloc", "alloc", "new", "mem_alloc"},
-        {"::", ":", ".", "->"},
-        {"struct", "typedef", "template", "define"},
-        {"\"delete\" deallocates a single object, \"delete[]\" deallocates an array.", "\"delete\" is outdated, use \"delete[]\" for all deletions.", "No difference, both are interchangeable.", "\"delete\" frees memory, \"delete[]\" calls destructors."},
-        {"To make a copy of an object.", "To transfer ownership of resources from one object to another.", "To remove an object from memory.", "To move the position of an object in memory."},
-        {"Singleton Pattern", "Global Object", "Static Class", "Monostate Pattern"},
-        {"virtual void functionName() = 0;", "void functionName() pure;", "abstract void functionName();", "virtual void functionName() abstract;"},
-        {"noexcept", "nothrow", "safecall", "throwless"},
-        {"global varName", "var varName", "_G.varName", "varName"}
+        {"60°", "45°", "50°", "55°"},
+        {"5", "6", "7", "8"},
+        {"78.5 cm?", "79.5 cm?", "80.5 cm?", "81.5 cm?"},
+        {"9:16", "6:8", "12:16", "3:4"},
+        {"x^2 - x - 6", "x^2 + x - 6", "x^2 - 3x + 2", "x^2 - 5x + 6"},
+        {"(x - 2)(x - 3)", "(x - 1)(x - 6)", "(x - 3)(x - 2)", "(x - 6)(x - 1)"},
+        {"343 cm?", "294 cm?", "249 cm?", "147 cm?"},
+        {"They are congruent", "They are supplementary", "They are complementary", "No specific relationship"},
+        {"11x - 12", "16x - 12", "11x + 12", "16x + 12"},
+        {"x = 4, y = 5", "x = 5, y = 3", "x = 4, y = 3", "x = 3, y = 4"}
     };
 
     correctAnswers = {
         'A',
-        'D',
-        'A',
-        'B',
         'C',
-        'B',
-        'D',
-        'A',
         'A',
         'A',
         'A',
         'C',
         'A',
-        'B',
-        'A',
-        'B',
         'A',
         'A',
-        'A',
-        'D'
+        'B'
     };
+
 
 
 
@@ -140,7 +111,7 @@ void MathExam::setupToolbar() {
     titleText.setPosition(700, 15);
 
     MathText.setFont(MathFont);
-    MathText.setString("CODING EXAM");
+    MathText.setString("MATH EXAM");
     MathText.setCharacterSize(30);
     MathText.setFillColor(sf::Color::Black);
     MathText.setPosition(600, 50);
@@ -148,7 +119,7 @@ void MathExam::setupToolbar() {
 
 
 void MathExam::openWindow() {
-    MathWindow.create(sf::VideoMode(1400, 800), "STUHELP CODING EXAM ACTIVE");
+    MathWindow.create(sf::VideoMode(1400, 800), "STUHELP MATH EXAM ACTIVE");
     while (MathWindow.isOpen()) {
         handleEvents();
         updateTimer();
