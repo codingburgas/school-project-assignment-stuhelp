@@ -155,13 +155,13 @@ void MathExam::updateQuestionAndAnswers() {
     if (testCompleted) {
 
         std::string resultMessage = "Test Result: " + std::to_string(scoreMath) + "/" + std::to_string(questions.size());
-        if (scoreMath >= 15) {
+        if (scoreMath >= 7) {
             resultMessage += "\nPASSED";
         }
-        else if (scoreMath >= 10) {
+        else if (scoreMath >= 5) {
             resultMessage += "\nGOOD ENOUGH";
         }
-        else if (scoreMath > 0) {
+        else if (scoreMath > 4) {
             resultMessage += "\nFAILED";
         }
         else {
