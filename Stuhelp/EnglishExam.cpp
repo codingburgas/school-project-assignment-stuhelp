@@ -1,6 +1,10 @@
 #include "EnglishExam.h"
 #include <iostream>
 
+int currentQuestion = 0;
+int score = 0;
+
+
 EnglishExam::EnglishExam() {
     if (!EnglishFont.loadFromFile("Fonts/SourceSansPro-Bold.ttf")) {
         std::cerr << "Failed to load font" << std::endl;
@@ -23,11 +27,51 @@ EnglishExam::EnglishExam() {
     rightLogoSprite.setPosition(1340 - rightLogoTexture.getSize().x * scaleRight, (toolbarHeight - rightLogoTexture.getSize().y * scaleRight) / 2);
 
     setupToolbar();
-
+    setupQuestionsAndAnswers();
     timerText.setFont(EnglishFont);
     timerText.setCharacterSize(24);
     timerText.setFillColor(sf::Color::Black);
     timerText.setPosition(1200, toolbarHeight);
+}
+
+void EnglishExam::setupQuestionsAndAnswers() {
+    questions = {
+        //QUESTIONS
+        "How do birds fly?", 
+        "What is the boiling point of water?", 
+        "What is Bulgaria?" 
+    };
+    answers = {
+        //ANSWERS FOR THE QUESTION
+        {"By flapping wings", "By magic", "By swimming", "By running"}, 
+        {"100 degrees Celsius", "90 degrees Celsius", "120 degrees Celsius", "80 degrees Celsius"},
+        {"IDK", "COUNTRY", "CAR", "CAT"}
+    };
+    correctAnswers = {
+        //CORECT ANSWERS FOR THE QUESTIONS
+        'A', 
+        'A', 
+        'B'  
+    };
+
+    questionText.setFont(EnglishFont);
+    questionText.setCharacterSize(60);
+    questionText.setFillColor(sf::Color::Black);
+    questionText.setString(questions[0]);
+    sf::FloatRect questionBounds = questionText.getLocalBounds();
+    questionText.setOrigin(questionBounds.width / 2, questionBounds.height / 2);
+    questionText.setPosition(700, 150);  
+
+    answerTexts.resize(4); 
+    for (size_t i = 0; i < answerTexts.size(); ++i) {
+        answerTexts[i].setFont(EnglishFont);
+        answerTexts[i].setCharacterSize(30);
+        answerTexts[i].setFillColor(sf::Color::Black);
+        answerTexts[i].setString(answers[0][i]); 
+        sf::FloatRect answerBounds = answerTexts[i].getLocalBounds();
+        answerTexts[i].setOrigin(answerBounds.width / 2, answerBounds.height / 2);
+        answerTexts[i].setPosition(700, 200 + i * 50); 
+    }
 }
 
 
@@ -59,13 +103,58 @@ void EnglishExam::openWindow() {
     }
 }
 
+void EnglishExam::updateQuestionAndAnswers() {
+    if (testCompleted) {
+
+        questionText.setString("Test Result: " + std::to_string(score) + "/" + std::to_string(questions.size()));
+
+        for (auto& text : answerTexts) {
+            text.setString(""); 
+        }
+    }
+    else {
+
+        questionText.setString(questions[currentQuestion]);
+        const auto& currentAnswers = answers[currentQuestion];
+        for (size_t i = 0; i < answerTexts.size(); ++i) {
+            answerTexts[i].setString(currentAnswers[i]); 
+        }
+    }
+}
+
+
+
 void EnglishExam::handleEvents() {
     sf::Event event;
     while (EnglishWindow.pollEvent(event)) {
-        if (event.type == sf::Event::Closed)
+        if (event.type == sf::Event::Closed) {
             EnglishWindow.close();
+        }
+        else if (event.type == sf::Event::MouseButtonPressed) {
+            if (event.mouseButton.button == sf::Mouse::Left) {
+
+                sf::Vector2f mousePos = EnglishWindow.mapPixelToCoords(sf::Mouse::getPosition(EnglishWindow));
+
+
+                for (size_t i = 0; i < answerTexts.size(); ++i) {
+                    if (answerTexts[i].getGlobalBounds().contains(mousePos)) {
+                        if (correctAnswers[currentQuestion] == 'A' + i) {
+                            score++;  
+                        }
+                        currentQuestion++;  
+                        if (currentQuestion >= questions.size()) {
+                            testCompleted = true; 
+                        }
+                        updateQuestionAndAnswers(); 
+                        break;
+                    }
+                }
+            }
+        }
     }
 }
+
+
 
 void EnglishExam::updateTimer() {
     sf::Time elapsed = clock.getElapsedTime();
@@ -88,12 +177,16 @@ void EnglishExam::updateTimer() {
 }
 
 void EnglishExam::render() {
-    EnglishWindow.clear(sf::Color(250, 250, 250));
+    EnglishWindow.clear(sf::Color(250, 250, 250)); 
     EnglishWindow.draw(toolbarBackground);
     EnglishWindow.draw(leftLogoSprite);
     EnglishWindow.draw(rightLogoSprite);
     EnglishWindow.draw(titleText);
     EnglishWindow.draw(EnglishText);
     EnglishWindow.draw(timerText);
+    EnglishWindow.draw(questionText); 
+    for (auto& answer : answerTexts) {
+        EnglishWindow.draw(answer); 
+    }
     EnglishWindow.display();
 }
