@@ -1,4 +1,1 @@
-﻿  CodingExam.cpp
-F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\CodingExam.cpp(125,45): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\CodingExam.cpp(228,45): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
-  Stuhelp.vcxproj -> F:\752\htmlmaistori\school-project-assignment-stuhelp\x64\Debug\Stuhelp.exe
+﻿  Stuhelp.vcxproj -> F:\752\htmlmaistori\school-project-assignment-stuhelp\x64\Debug\Stuhelp.exe

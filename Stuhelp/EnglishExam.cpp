@@ -218,7 +218,7 @@ void EnglishExam::updateQuestionAndAnswers() {
 
 
 void EnglishExam::updateRegularQuestions() {
-    std::string wrappedQuestion = wrapText(questions[currentQuestion], EnglishFont, 40, 1300);
+    std::string wrappedQuestion = wrapTextEnglish(questions[currentQuestion], EnglishFont, 40, 1300);
     questionText.setString(wrappedQuestion);
     sf::FloatRect questionBounds = questionText.getLocalBounds();
     questionText.setOrigin(questionBounds.width / 2, questionBounds.height / 2);
