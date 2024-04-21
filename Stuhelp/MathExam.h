@@ -18,6 +18,7 @@ private:
     sf::RectangleShape toolbarBackground;
     sf::Sprite leftLogoSprite, rightLogoSprite;
     sf::Texture leftLogoTexture, rightLogoTexture;
+    sf::Text footerText;
 
     bool testCompleted = false;
 

@@ -15,7 +15,7 @@ public:
 
 private:
     sf::RenderWindow EnglishWindow;
-    sf::Font EnglishFont;
+    sf::Font EnglishFont, English2Font;
     sf::Text EnglishText ,questionText, titleText, timerText;
     std::vector<sf::Text> answerTexts; 
     std::vector<std::string> questions;
@@ -25,6 +25,9 @@ private:
     sf::RectangleShape toolbarBackground;
     sf::Sprite leftLogoSprite, rightLogoSprite;
     sf::Texture leftLogoTexture, rightLogoTexture;
+    sf::Text footerText;
+    sf::RectangleShape finishButton;
+    sf::Text finishButtonText;
 
     bool testCompleted = false;
     int currentQuestion = 0;  
@@ -32,10 +35,14 @@ private:
 
     void setupToolbar();
     void handleEvents();
+    void handleAnswerSelection(const sf::Vector2f& mousePos);
     void setupQuestionsAndAnswers();
     void updateQuestionAndAnswers(); 
     void render();
     void updateTimer();
+    void setupFooter();
+    void updateRegularQuestions();
+    void setupFinishButton();
 
 };
 
