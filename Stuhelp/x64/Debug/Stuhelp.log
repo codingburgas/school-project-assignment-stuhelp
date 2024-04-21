@@ -1,1 +1,37 @@
-﻿  Stuhelp.vcxproj -> F:\752\htmlmaistori\school-project-assignment-stuhelp\x64\Debug\Stuhelp.exe
+﻿  AppEngine.cpp
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(22,27): warning C4244: '+=': conversion from 'float' to 'unsigned int', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(25,25): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(161,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(161,66): warning C4244:         with
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(161,66): warning C4244:         [
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(161,66): warning C4244:             T=unsigned int
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(161,66): warning C4244:         ]
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(161,66): warning C4244:         and
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(161,66): warning C4244:         [
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(161,66): warning C4244:             T=float
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(161,66): warning C4244:         ]
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(163,113): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(170,64): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(170,64): warning C4244:         with
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(170,64): warning C4244:         [
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(170,64): warning C4244:             T=float
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(170,64): warning C4244:         ]
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(240,71): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(240,71): warning C4244:         with
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(240,71): warning C4244:         [
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(240,71): warning C4244:             T=unsigned int
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(240,71): warning C4244:         ]
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(240,47): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(240,47): warning C4244:         with
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(240,47): warning C4244:         [
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(240,47): warning C4244:             T=unsigned int
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(240,47): warning C4244:         ]
+  CodingExam.cpp
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\CodingExam.cpp(126,45): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\CodingExam.cpp(229,45): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+  MathExam.cpp
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\MathExam.cpp(126,45): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\MathExam.cpp(229,45): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+  Generating Code...
+  LINK : F:\752\htmlmaistori\school-project-assignment-stuhelp\x64\Debug\Stuhelp.exe not found or not built by the last incremental link; performing full link
+  Stuhelp.vcxproj -> F:\752\htmlmaistori\school-project-assignment-stuhelp\x64\Debug\Stuhelp.exe
