@@ -1,9 +1,5 @@
-#include "EnglishExam.h"
+ï»¿#include "EnglishExam.h"
 #include <iostream>
-
-int currentQuestion = 0;
-int score = 0;
-
 
 EnglishExam::EnglishExam() {
     if (!EnglishFont.loadFromFile("Fonts/SourceSansPro-Bold.ttf")) {
@@ -42,7 +38,7 @@ EnglishExam::EnglishExam() {
 void EnglishExam::setupQuestionsAndAnswers() {
     questions = {
     "What do you call a person who travels to space?",
-    "Which word correctly completes the sentence? 'I haven’t seen you ______ ages!'",
+    "Which word correctly completes the sentence? 'I havenâ€™t seen you ______ ages!'",
     "Choose the correct form of the verb: 'She ________ the piano since she was six.'",
     "What is the passive voice of 'John writes the emails'?",
     "Which word is NOT a preposition?",
@@ -237,7 +233,7 @@ void EnglishExam::updateRegularQuestions() {
 
 void EnglishExam::setupFooter() {
     footerText.setFont(EnglishFont); 
-    footerText.setString("Copyright © 2024 by STUHELP. All rights reserved.");
+    footerText.setString("Copyright Â© 2024 by STUHELP. All rights reserved.");
     footerText.setCharacterSize(20); 
     footerText.setFillColor(sf::Color::Black);
 
