@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2F73ECD9-DABE-442B-956A-B59FF4B867A9}|Stuhelp\\Stuhelp.vcxproj|F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\CodingExam.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2F73ECD9-DABE-442B-956A-B59FF4B867A9}|Stuhelp\\Stuhelp.vcxproj|solutionrelative:Stuhelp\\CodingExam.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2F73ECD9-DABE-442B-956A-B59FF4B867A9}|Stuhelp\\Stuhelp.vcxproj|F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\EnglishExam.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2F73ECD9-DABE-442B-956A-B59FF4B867A9}|Stuhelp\\Stuhelp.vcxproj|solutionrelative:Stuhelp\\EnglishExam.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F73ECD9-DABE-442B-956A-B59FF4B867A9}|Stuhelp\\Stuhelp.vcxproj|F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\CodingExam.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2F73ECD9-DABE-442B-956A-B59FF4B867A9}|Stuhelp\\Stuhelp.vcxproj|solutionrelative:Stuhelp\\CodingExam.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F73ECD9-DABE-442B-956A-B59FF4B867A9}|Stuhelp\\Stuhelp.vcxproj|F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\EnglishExam.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2F73ECD9-DABE-442B-956A-B59FF4B867A9}|Stuhelp\\Stuhelp.vcxproj|solutionrelative:Stuhelp\\EnglishExam.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F73ECD9-DABE-442B-956A-B59FF4B867A9}|Stuhelp\\Stuhelp.vcxproj|F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\AppEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2F73ECD9-DABE-442B-956A-B59FF4B867A9}|Stuhelp\\Stuhelp.vcxproj|solutionrelative:Stuhelp\\AppEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2F73ECD9-DABE-442B-956A-B59FF4B867A9}|Stuhelp\\Stuhelp.vcxproj|F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\AppEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2F73ECD9-DABE-442B-956A-B59FF4B867A9}|Stuhelp\\Stuhelp.vcxproj|solutionrelative:Stuhelp\\AppEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F73ECD9-DABE-442B-956A-B59FF4B867A9}|Stuhelp\\Stuhelp.vcxproj|F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\AppEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2F73ECD9-DABE-442B-956A-B59FF4B867A9}|Stuhelp\\Stuhelp.vcxproj|solutionrelative:Stuhelp\\AppEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,37 +34,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CodingExam.h",
+              "DocumentMoniker": "F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\CodingExam.h",
+              "RelativeDocumentMoniker": "Stuhelp\\CodingExam.h",
+              "ToolTip": "F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\CodingExam.h",
+              "RelativeToolTip": "Stuhelp\\CodingExam.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-21T20:23:41.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CodingExam.cpp",
+              "DocumentMoniker": "F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\CodingExam.cpp",
+              "RelativeDocumentMoniker": "Stuhelp\\CodingExam.cpp",
+              "ToolTip": "F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\CodingExam.cpp",
+              "RelativeToolTip": "Stuhelp\\CodingExam.cpp",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAACYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-21T20:23:22.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EnglishExam.cpp",
               "DocumentMoniker": "F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\EnglishExam.cpp",
               "RelativeDocumentMoniker": "Stuhelp\\EnglishExam.cpp",
               "ToolTip": "F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\EnglishExam.cpp",
               "RelativeToolTip": "Stuhelp\\EnglishExam.cpp",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAMEAAAArAAAA",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAAAKEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-21T16:22:34.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "EnglishExam.h",
               "DocumentMoniker": "F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\EnglishExam.h",
               "RelativeDocumentMoniker": "Stuhelp\\EnglishExam.h",
               "ToolTip": "F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\EnglishExam.h",
               "RelativeToolTip": "Stuhelp\\EnglishExam.h",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAcwCsAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-21T16:13:04.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AppEngine.h",
               "DocumentMoniker": "F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\AppEngine.h",
               "RelativeDocumentMoniker": "Stuhelp\\AppEngine.h",
@@ -64,12 +98,11 @@
               "RelativeToolTip": "Stuhelp\\AppEngine.h",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-20T18:08:12.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T18:08:12.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AppEngine.cpp",
               "DocumentMoniker": "F:\\752\\htmlmaistori\\school-project-assignment-stuhelp\\Stuhelp\\AppEngine.cpp",
               "RelativeDocumentMoniker": "Stuhelp\\AppEngine.cpp",
@@ -77,8 +110,7 @@
               "RelativeToolTip": "Stuhelp\\AppEngine.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAOYAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-20T18:05:00.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T18:05:00.676Z"
             }
           ]
         }

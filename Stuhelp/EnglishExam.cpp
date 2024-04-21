@@ -159,7 +159,7 @@ void EnglishExam::openWindow() {
     }
 }
 
-std::string wrapText(std::string text, sf::Font& font, unsigned characterSize, unsigned width) {
+std::string wrapTextEnglish(std::string text, sf::Font& font, unsigned characterSize, unsigned width) {
     sf::Text line(text, font, characterSize);
     if (line.getLocalBounds().width <= width)
         return text;
