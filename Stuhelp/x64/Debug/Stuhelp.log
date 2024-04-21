@@ -1,2 +1,18 @@
-﻿  CodingExam.cpp
-  Stuhelp.vcxproj -> F:\752\htmlmaistori\school-project-assignment-stuhelp\x64\Debug\Stuhelp.exe
+﻿  EnglishExam.cpp
+C:\Users\Asus\Desktop\school-project-assignment-stuhelp\Stuhelp\EnglishExam.h(87,61): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Asus\Desktop\school-project-assignment-stuhelp\Stuhelp\EnglishExam.h(96,10): error C2039: 'cerr': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\random(33): message : see declaration of 'std'
+C:\Users\Asus\Desktop\school-project-assignment-stuhelp\Stuhelp\EnglishExam.h(96,15): error C2065: 'cerr': undeclared identifier
+C:\Users\Asus\Desktop\school-project-assignment-stuhelp\Stuhelp\EnglishExam.h(117,10): error C2039: 'cin': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\random(33): message : see declaration of 'std'
+C:\Users\Asus\Desktop\school-project-assignment-stuhelp\Stuhelp\EnglishExam.h(117,14): error C2065: 'cin': undeclared identifier
+C:\Users\Asus\Desktop\school-project-assignment-stuhelp\Stuhelp\EnglishExam.h(162,14): error C2039: 'cout': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\random(33): message : see declaration of 'std'
+C:\Users\Asus\Desktop\school-project-assignment-stuhelp\Stuhelp\EnglishExam.h(162,19): error C2065: 'cout': undeclared identifier
+C:\Users\Asus\Desktop\school-project-assignment-stuhelp\Stuhelp\EnglishExam.h(163,14): error C2039: 'cout': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\random(33): message : see declaration of 'std'
+C:\Users\Asus\Desktop\school-project-assignment-stuhelp\Stuhelp\EnglishExam.h(163,19): error C2065: 'cout': undeclared identifier
