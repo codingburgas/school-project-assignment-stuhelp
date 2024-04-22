@@ -140,7 +140,7 @@ void BulgarianExam::setupToolbar() {
     titleText.setPosition(700, 15);
 
     BulgarianText.setFont(BulgarianFont);
-    BulgarianText.setString("ENGLISH EXAM");
+    BulgarianText.setString("BULGARIAN EXAM");
     BulgarianText.setCharacterSize(30);
     BulgarianText.setFillColor(sf::Color::Black);
     BulgarianText.setPosition(600, 50);
@@ -148,7 +148,7 @@ void BulgarianExam::setupToolbar() {
 
 
 void BulgarianExam::openWindow() {
-    BulgarianWindow.create(sf::VideoMode(1400, 800), "STUHELP ENGLISH EXAM ACTIVE");
+    BulgarianWindow.create(sf::VideoMode(1400, 800), "STUHELP BULGARIAN EXAM ACTIVE");
     while (BulgarianWindow.isOpen()) {
         handleEvents();
         updateTimer();

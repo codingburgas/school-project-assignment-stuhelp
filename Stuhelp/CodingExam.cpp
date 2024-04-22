@@ -340,4 +340,3 @@ void CodingExam::render() {
     }
     CodingWindow.display();
 }
-

@@ -241,13 +241,13 @@ void AppEngine::setupToolbar() {
 }
 // Renders the elements...
 void AppEngine::render() {
-    window.clear(backgroundColor); // Clear the window
-    window.draw(toolbarBackground); // Draw the toolbar background
-    window.draw(toolbarSprite);     // Draw the toolbar sprite
-    window.draw(rightSideSprite);   // Draw the right side image
-    window.draw(titleText);         // Draw the title text
-    window.draw(descriptionContainer); // Draw the description container
-    window.draw(descriptionText);   // Draw the description text
+    window.clear(backgroundColor);
+    window.draw(toolbarBackground);
+    window.draw(toolbarSprite);
+    window.draw(rightSideSprite); 
+    window.draw(titleText);   
+    window.draw(descriptionContainer);
+    window.draw(descriptionText);
 
     // Draw buttons
     window.draw(button1);
@@ -264,5 +264,3 @@ void AppEngine::render() {
 
     window.display(); // Display everything we've drawn
 }
-
-
