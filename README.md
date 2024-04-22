@@ -10,8 +10,10 @@
   - [Collaborators](#collaborators)
   
 ## 🔍 Description and idea <a name="description"></a>
-<h1 align="center"> Space Adventure </h1>
-<p align="center"> Our game 'Space Adventure' by PSSI_Studio is a space exploration type of game! You have to choose a spaceship and avoid colliding with meteors in space in order to win and reach your destination! The game can be quite challenging but still pretty fun! </p>
+<h1 align="center">About our app </h1>
+<p align="center"> Our idea is to help students test their skills after self preparation! For example if you are having an English Exam tomorrow you will need to ready and study and after that you can join our app and test the skills you learned by yourself!
+![image](https://github.com/codingburgas/school-project-assignment-stuhelp/assets/132440275/a37a7b50-aab1-42a1-8a1f-51f1e8988a9b)
+ </p>
 
 ## 🖥️ Technologies used <a name="technologies"></a> 
   
