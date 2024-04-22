@@ -1,11 +1,10 @@
 <h1 align="center"> STUHelp <h1>
-<div align="center" ><img src="https://github.com/codingburgas/school-project-assignment-stuhelp/issues/1#issuecomment-2066993610"raw=true" alt="Logo"> </div>
+<div align="center" ><img src=""raw=true" alt="Logo"> </div>
 <div align="center"> 
 </div>
 
 ## 📋 Table of contents
   - [Description](#description)
-  - [Documentation](#docs)
   - [Technologies](#technologies)
   - [Collaborators](#collaborators)
   
