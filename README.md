@@ -22,8 +22,8 @@
 <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png" width=100></a>
 ## 🧑 Collaborators <a name="collaborators"></a>
 - [Stiliyan Dyulgerov](https://github.com/STDyulgerov22) - Q&A
-- [Ivailo Lalev](https://github.com/ILLalev22) - Front-end Developer
-- [Simeon Kalamerov](https://github.com/SNKalamerov22) - Front-end Developer
+- [Ivailo Lalev](https://github.com/ILLalev22) - Back-end Developer
+- [Simeon Kalamerov](https://github.com/SNKalamerov22) - Designer
 - [Boris Belberov](https://github.com/BRBelberov21) - Front-end Developer
 - [Valentin Pendashev](https://github.com/vbpendashev21) - Front-end Developer
 - [Nikola Paskov](https://github.com/NTPaskov21) - Scrum trainer
