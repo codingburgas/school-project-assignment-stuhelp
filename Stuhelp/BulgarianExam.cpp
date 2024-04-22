@@ -28,6 +28,7 @@ BulgarianExam::BulgarianExam() {
     setupToolbar();
     setupQuestionsAndAnswers();
     setupFooter();
+    shuffleQuestions();
 
     timerText.setFont(BulgarianFont);
     timerText.setCharacterSize(24);
@@ -280,7 +281,7 @@ void BulgarianExam::handleAnswerSelection(const sf::Vector2f& mousePos) {
     }
 }
 
-
+//TIMER
 
 void BulgarianExam::updateTimer() {
     sf::Time elapsed = clock.getElapsedTime();
@@ -316,6 +317,31 @@ void BulgarianExam::setupFinishButton() {
     finishButtonText.setPosition(finishButton.getPosition() + sf::Vector2f(100, 15));
 }
 
+void BulgarianExam::shuffleQuestions() {
+
+    std::random_device rd;
+    std::mt19937 g(rd());
+
+
+    std::vector<int> indices(questions.size());
+    std::iota(indices.begin(), indices.end(), 0);
+
+    std::shuffle(indices.begin(), indices.end(), g);
+
+    std::vector<std::string> shuffledQuestions(questions.size());
+    std::vector<std::vector<std::string>> shuffledAnswers(answers.size());
+    std::vector<char> shuffledCorrectAnswers(correctAnswers.size());
+
+    for (size_t i = 0; i < indices.size(); ++i) {
+        shuffledQuestions[i] = questions[indices[i]];
+        shuffledAnswers[i] = answers[indices[i]];
+        shuffledCorrectAnswers[i] = correctAnswers[indices[i]];
+    }
+
+    questions = std::move(shuffledQuestions);
+    answers = std::move(shuffledAnswers);
+    correctAnswers = std::move(shuffledCorrectAnswers);
+}
 
 void BulgarianExam::render() {
     BulgarianWindow.clear(sf::Color(250, 250, 250));

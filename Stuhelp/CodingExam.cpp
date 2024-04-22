@@ -28,6 +28,7 @@ CodingExam::CodingExam() {
     setupToolbar();
     setupQuestionsAndAnswers();
     setupFooter();
+    shuffleQuestions();
 
     timerText.setFont(CodingFont);
     timerText.setCharacterSize(24);
@@ -280,7 +281,7 @@ void CodingExam::handleAnswerSelection(const sf::Vector2f& mousePos) {
     }
 }
 
-
+//TIMER
 
 void CodingExam::updateTimer() {
     sf::Time elapsed = clock.getElapsedTime();
@@ -314,6 +315,32 @@ void CodingExam::setupFinishButton() {
     sf::FloatRect textBounds = finishButtonText.getLocalBounds();
     finishButtonText.setOrigin(textBounds.width / 2, textBounds.height / 2);
     finishButtonText.setPosition(finishButton.getPosition() + sf::Vector2f(100, 15));
+}
+
+void CodingExam::shuffleQuestions() {
+
+    std::random_device rd;
+    std::mt19937 g(rd());
+
+
+    std::vector<int> indices(questions.size());
+    std::iota(indices.begin(), indices.end(), 0);
+
+    std::shuffle(indices.begin(), indices.end(), g);
+
+    std::vector<std::string> shuffledQuestions(questions.size());
+    std::vector<std::vector<std::string>> shuffledAnswers(answers.size());
+    std::vector<char> shuffledCorrectAnswers(correctAnswers.size());
+
+    for (size_t i = 0; i < indices.size(); ++i) {
+        shuffledQuestions[i] = questions[indices[i]];
+        shuffledAnswers[i] = answers[indices[i]];
+        shuffledCorrectAnswers[i] = correctAnswers[indices[i]];
+    }
+
+    questions = std::move(shuffledQuestions);
+    answers = std::move(shuffledAnswers);
+    correctAnswers = std::move(shuffledCorrectAnswers);
 }
 
 

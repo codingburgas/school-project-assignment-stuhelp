@@ -128,7 +128,7 @@ void AppEngine::loadTextures() {
     rightSideSprite.setTexture(rightSideTexture);
 }
 
-
+//SETS THE WHOLE MAIN PAGE
 void AppEngine::setupToolbar() {
     // Set the toolbar background size and color
     toolbarBackground.setSize(sf::Vector2f(static_cast<float>(window.getSize().x), static_cast<float>(toolbarHeight)));
@@ -249,7 +249,7 @@ void AppEngine::render() {
     window.draw(descriptionContainer);
     window.draw(descriptionText);
 
-    // Draw buttons
+    // BUTTONS
     window.draw(button1);
     window.draw(button1Text);
     window.draw(button2);
@@ -259,8 +259,8 @@ void AppEngine::render() {
     window.draw(button4);
     window.draw(button4Text);
 
-    // Draw footer text
+    //FOOTER
     window.draw(footerText);
 
-    window.display(); // Display everything we've drawn
+    window.display();
 }

@@ -7,6 +7,8 @@
 #include <vector>
 #include <string>
 #include <random>
+#include <algorithm>
+#include <numeric>
 
 class MathExam {
 public:
@@ -43,6 +45,7 @@ private:
     void setupFooter();
     void updateRegularQuestions();
     void setupFinishButton();
+    void shuffleQuestions();
 };
 
 #endif

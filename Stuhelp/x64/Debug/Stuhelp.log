@@ -26,4 +26,33 @@ F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(240,
 F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(240,47): warning C4244:         [
 F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(240,47): warning C4244:             T=unsigned int
 F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\AppEngine.cpp(240,47): warning C4244:         ]
+  BulgarianExam.cpp
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(43,5): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(44,5): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(47,5): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(48,5): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(51,5): warning C4566: character represented by universal-character-name '\u016D' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(53,5): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(56,5): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(74,10): warning C4566: character represented by universal-character-name '\u016D' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(74,32): warning C4566: character represented by universal-character-name '\u016D' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(74,71): warning C4566: character represented by universal-character-name '\u016D' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(74,96): warning C4566: character represented by universal-character-name '\u016D' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(79,53): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(80,44): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(81,37): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(83,31): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(83,43): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(127,45): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\BulgarianExam.cpp(230,45): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+  CodingExam.cpp
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\CodingExam.cpp(127,45): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\CodingExam.cpp(230,45): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+  EnglishExam.cpp
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\EnglishExam.cpp(126,45): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\EnglishExam.cpp(229,45): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+  MathExam.cpp
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\MathExam.cpp(98,45): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+F:\752\htmlmaistori\school-project-assignment-stuhelp\Stuhelp\MathExam.cpp(201,45): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
+  Generating Code...
   Stuhelp.vcxproj -> F:\752\htmlmaistori\school-project-assignment-stuhelp\x64\Debug\Stuhelp.exe
