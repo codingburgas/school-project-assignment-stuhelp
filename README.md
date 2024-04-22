@@ -1,5 +1,5 @@
 <h1 align="center"> STUHelp <h1>
-<div align="center" ><img src="Textures/Logo.png" alt = logo></div>
+<div align="center" ><img src="Stuhelp/Textures/Logo.png" alt = logo></div>
 <div align="center"> 
 </div>
 
