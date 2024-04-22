@@ -164,7 +164,7 @@ void AppEngine::setupToolbar() {
 
 
     descriptionText.setFont(descriptionFont);
-    descriptionText.setString(L"We are StuHelp. Here you can prepare for MATH , ENGLISH , BULGARIAN and CODING exams. After a short revision on your own you are able to test your skills! Start up one of our short tests and test yuor self! Remember to complete it under 30 minutes!");
+    descriptionText.setString(L"We are STUHELP. Here you can see your skills in MATH , ENGLISH , BULGARIAN and CODING exams. After a short revision on your own you are able to test your skills! Start up one of our short tests and test your self! Remember to complete it under 30 minutes!");
     descriptionText.setCharacterSize(35);
     descriptionText.setFillColor(sf::Color::Black);
     wrapText(descriptionText, descriptionContainer.getSize().x - 20, descriptionFont, 25);  
